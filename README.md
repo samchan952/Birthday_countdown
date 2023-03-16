@@ -1,1 +1,2 @@
-"# Birthday_countdown" 
+# Birthday_countdown
+## Using JavaScript
