@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.countdown-timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://th.bing.com/th/id/R.9b3d3c20a39a2339d1aa39f147b0e04f?rik=HjCjgdkkpdBgYw&riu=http%3a%2f%2fkurzgesagt.org%2fwp-content%2fuploads%2f2016%2f06%2f380_Local-Group_Kurzgesagt-Project-Pic-4-1920x1080.png&ehk=TxOylFucpq0Jw08zdAOm0LodG4jJ8%2b9Kh5rPNMzJj2A%3d&risl=&pid=ImgRaw&r=0");
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul li span {
+  display: block;
+  font-size: 50px;
+  padding-top: 5px;
+  color: rgb(226, 206, 28);
+  font-weight: 600;
+}
+
+ul li span:nth-child(2) {
+  font-size: 20px;
+}
+
+.greet {
+  color: rgb(145, 88, 88);
+  font-size: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 30px;
+}
+
+.coming-year {
+  font-size: 250px;
+  font-weight: 900;
+  color:rgb(226, 206, 28);
+}
+
+@media (max-width:768px) {
+  ul li span {
+    font-size: 10vw;
+  }
+
+  ul li span:nth-child(2) {
+    font-size: 15px;
+  }
+
+  .coming-year {
+    font-size: 40vw;
+    font-weight: 900;
+  }
+}
